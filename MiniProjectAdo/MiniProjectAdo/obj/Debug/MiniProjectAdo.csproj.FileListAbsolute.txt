@@ -10,3 +10,15 @@ D:\Yuvraj_repo\Assignments_code\Assignment_Ado.net\MiniProjectAdo\MiniProjectAdo
 D:\Yuvraj_repo\Assignments_code\Assignment_Ado.net\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.csproj.CopyComplete
 D:\Yuvraj_repo\Assignments_code\Assignment_Ado.net\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.exe
 D:\Yuvraj_repo\Assignments_code\Assignment_Ado.net\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.pdb
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\MiniProjectAdo.exe.config
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\MiniProjectAdo.exe
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\MiniProjectAdo.pdb
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\EntityFramework.dll
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\EntityFramework.xml
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.csproj.AssemblyReference.cache
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.csproj.CoreCompileInputs.cache
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.csproj.CopyComplete
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.exe
+D:\MyMiniProject\MiniProjectAdo\MiniProjectAdo\obj\Debug\MiniProjectAdo.pdb

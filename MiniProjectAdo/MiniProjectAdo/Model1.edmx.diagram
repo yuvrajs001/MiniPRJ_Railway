@@ -4,9 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="70d1fc44f80047fa82d133783b7a10a4" Name="Diagram1" ZoomLevel="120">
+      <Diagram DiagramId="70d1fc44f80047fa82d133783b7a10a4" Name="Diagram1" ZoomLevel="90">
         <EntityTypeShape EntityType="MiniProjectModel.Admin" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MiniProjectModel.Booking" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MiniProjectModel.Booking" Width="1.5" PointX="2.625" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="MiniProjectModel.train" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
         <EntityTypeShape EntityType="MiniProjectModel.TrainBerthInfo" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
         <EntityTypeShape EntityType="MiniProjectModel.UserPer" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />

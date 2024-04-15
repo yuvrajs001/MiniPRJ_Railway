@@ -45,7 +45,7 @@ namespace MiniProjetsAdo
         }
 
         // admin login functionality 
-        static void AdminLogin()
+         public static void AdminLogin()
         {
             Console.WriteLine("\nYou have Selected Admin Login Please enter valid  credential"); //for user username=admin,pass=1234
 
@@ -71,7 +71,7 @@ namespace MiniProjetsAdo
 
         }
 
-        static void AdminControl()
+        public static void AdminControl()
         {
             while (true)
             {
@@ -122,7 +122,7 @@ namespace MiniProjetsAdo
 
 
         //calling a procedur to add a train
-        static void AddTrain()
+       public static void AddTrain()
         {
 
             try
@@ -174,12 +174,7 @@ namespace MiniProjetsAdo
                 Console.WriteLine($"An error occurred: { ex.Message}");
             }
         }
-
- 
-
- 
-
-        static void ModifyTrain()
+        public static void ModifyTrain()
         {
             try
             {
@@ -205,7 +200,7 @@ namespace MiniProjetsAdo
             }
         }
 
-        static void SoftDeleteTrain()
+        public static void SoftDeleteTrain()
         {
 
             Console.Write("Enter Train ID to soft delete: ");
@@ -223,7 +218,7 @@ namespace MiniProjetsAdo
 
 
 
-        static void ChangeTrainStatusActiveInactive()
+        public static void ChangeTrainStatusActiveInactive()
         {
             Console.WriteLine("\n if status is y(active)/N(Inactive) it will make it Inactive(N)/Active(Y)");
             Console.Write("\nEnter Train ID to change  status: ");
@@ -243,7 +238,7 @@ namespace MiniProjetsAdo
 
         }
 
-        static void ViewTrain()
+        public static void ViewTrain()
         {
             //thta procedure is called only to see that particuler activity done on that train
             //it  is called with db.ViewTrain(@TrainID)
@@ -253,14 +248,14 @@ namespace MiniProjetsAdo
             //var train = db.ViewTrain(trainID).FirstOrDefault();
             //Console.WriteLine($"TrainID: {train.trainID} train Name:{train.trainName} trainstatus:{train.Status}");
         }
-        static void ShowAlltrain()
+        public static void ShowAlltrain()
         {
             var trains = db.ShowAllTrain().ToList();
             Console.WriteLine("\nTrains:");
             foreach (var train in trains)
             {
                 Console.WriteLine("------------------------------------------------------------------------------------------------------");
-                Console.WriteLine($"TrainID: {train.trainID}, TrainName: {train.trainName}, Source: {train.Source}, Destination: {train.Destination}, Status: {train.Status}");
+                Console.WriteLine($"TrainID: {train.trainID}, TrainName: {train.trainName}, Source: {train.Source}, Destination: {train.Destination}, Status: {(train.Status =="Y" ? "Active" : "Inactive")}");
                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
 
             }
@@ -269,9 +264,9 @@ namespace MiniProjetsAdo
 
 
 
-        static void UserLogin()
+        public static void UserLogin()
         {
-            Console.WriteLine("\nYou have Selected User Login Please enter valid  credential"); //for user username=admin,pass=1234
+            Console.WriteLine("\nYou have Selected User Login Please enter valid  credential"); //for user username=User,pass=2222
 
             Console.Write("\nEnter username: ");
             string username = Console.ReadLine();
@@ -296,7 +291,7 @@ namespace MiniProjetsAdo
   
         /// -------------------------------------------------------------------------------------------------------------------------------------------------------
        
-        static void UserControl()
+        public static void UserControl()
         {
 
             while (true)
@@ -459,8 +454,9 @@ namespace MiniProjetsAdo
             Console.WriteLine("Enter Your Booking ID");
             int bookingId = int.Parse(Console.ReadLine());
             db.CancelTicketData(bookingId);
-
-            Console.WriteLine("Ticket cancelled successfully.");
+            var RefundAmount = db.CancelTickets.FirstOrDefault(ct => ct.BookingID == bookingId)?.RefundAmount;
+            Console.WriteLine("Ticket cancelled successfully. you wil be refunded 60% of paid amount  ");
+            Console.WriteLine($"RefundAmount for BookingID {bookingId}: {RefundAmount}");
         }
     }
 
