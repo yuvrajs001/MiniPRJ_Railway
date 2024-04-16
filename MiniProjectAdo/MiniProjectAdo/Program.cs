@@ -77,6 +77,7 @@ namespace MiniProjetsAdo
             {
                 try
                 {
+                    Console.WriteLine("\n-----------------------------------------");
                     Console.WriteLine("\nAdmin Menu:");
                     Console.WriteLine("\nEnter 1. Add Train");
                     Console.WriteLine("\nEnter 2. Modify Train");
@@ -255,7 +256,7 @@ namespace MiniProjetsAdo
             foreach (var train in trains)
             {
                 Console.WriteLine("------------------------------------------------------------------------------------------------------");
-                Console.WriteLine($"TrainID: {train.trainID}, TrainName: {train.trainName}, Source: {train.Source}, Destination: {train.Destination}, Status: {(train.Status =="Y" ? "Active" : "Inactive")}");
+                Console.WriteLine($"TrainID: {train.trainID}, TrainName: {train.trainName},||   Source: {train.Source} to Destination: {train.Destination}  || Status: {(train.Status =="Y" ? "Active" : "Inactive")}");
                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
 
             }
@@ -266,7 +267,7 @@ namespace MiniProjetsAdo
 
         public static void UserLogin()
         {
-            Console.WriteLine("\nYou have Selected User Login Please enter valid  credential"); //for user username=User,pass=2222
+            Console.WriteLine("\n\nYou have Selected User Login Please enter valid  credential"); //for user username=User,pass=2222
 
             Console.Write("\nEnter username: ");
             string username = Console.ReadLine();
@@ -298,6 +299,8 @@ namespace MiniProjetsAdo
             {
                 try
                 {
+                    Console.WriteLine("\n\n-----------------------------------------");
+
                     Console.WriteLine("\nUser  Menu:");
                     Console.WriteLine("\nEnter 1. Show All Trains");
                     Console.WriteLine("\nEnter 2. BookTickit");
@@ -347,29 +350,39 @@ namespace MiniProjetsAdo
 
             try
             {
+
                 Console.WriteLine("\nEnter details to Book TICKET");
                 Console.WriteLine("\nEnter Your Name :");
                 string userName = Console.ReadLine();
                 Console.WriteLine("\nEnter Train Number :");
                 int trainID = int.Parse(Console.ReadLine());
+                var trainStatus = db.ViewTrainStatus(trainID).FirstOrDefault()?.Status;
+
+                if (trainStatus == "N")
+                {
+                    Console.WriteLine("Sorry, the train is inactive. Cannot book a ticket.");
+                    return;
+                }
                 Console.WriteLine("\nEnter Berth Class in which you want to travel:");
                 string birthClass = Console.ReadLine();
 
                 Console.WriteLine("\nHow Many Tickets You Want TO book:");
                 int totalTickets = int.Parse(Console.ReadLine());
 
+
+              
                 db.BookTrainTicket(userName, trainID, birthClass, totalTickets);
 
 
                 var lastBookingID = db.GetLastBookingID().FirstOrDefault();//gives me last booking id because it sets as identity(1,1) so it will give me always max(booking id created last time)
 
                 
-                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
+                 Console.WriteLine("||-------------------------------------------------------------------------------------------------------||");
                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
 
                 Console.WriteLine($"Your ticket Booked Successfully, your booking ID is: {lastBookingID.Value}");
                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
-                Console.WriteLine("----------------------------------------------------note always remember your booking id---------------------------------------------------");
+                Console.WriteLine("----------------------------------------------------note always remember your booking id----------------");
 
             }
             catch (Exception ex)
@@ -399,7 +412,13 @@ namespace MiniProjetsAdo
         {
             Console.Write("\nEnter Train ID to see Birth details for You want to book ticket : ");
             int trainID = int.Parse(Console.ReadLine());
+            var trainStatus = db.ViewTrainStatus(trainID).FirstOrDefault()?.Status;
 
+            if (trainStatus == "N")
+            {
+                Console.WriteLine("Sorry, the train is inactive. Cannot book a ticket.");
+                return;
+            }
             var TrainbirthInfos = db.GetBirthDetal(trainID).ToList();
 
             if (TrainbirthInfos.Count > 0)
