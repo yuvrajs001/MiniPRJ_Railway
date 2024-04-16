@@ -26,12 +26,12 @@ namespace MiniProjetsAdo
             switch (LoginType)
             {
                 case "1":
-                    // UserLogin();
-                    UserControl();
+                    UserLogin();
+                    //UserControl();
                     break;
                 case "2":
-                    //AdminLogin();
-                    AdminControl();
+                    AdminLogin();
+                    //AdminControl();
                     break;
                 case "3":
                     Console.WriteLine("\nExiting From the train tickit booking app...");
@@ -45,7 +45,7 @@ namespace MiniProjetsAdo
         }
 
         // admin login functionality 
-         public static void AdminLogin()
+        public static void AdminLogin()
         {
             Console.WriteLine("\nYou have Selected Admin Login Please enter valid  credential"); //for user username=admin,pass=1234
 
@@ -84,7 +84,9 @@ namespace MiniProjetsAdo
                     Console.WriteLine("\nEnter 3. Soft Delete Train");
                     Console.WriteLine("\nEnter 4. Toggle between Train Status");
                     Console.WriteLine("\nEnter 5. View All train");
-                    Console.WriteLine("\nEnter 6. Exit");
+                    Console.WriteLine("\nEnter 6. All Booking details");
+                    Console.WriteLine("\nEnter 7. All Canceled Ticked  details");
+                    Console.WriteLine("\nEnter 8. Exit");
 
                     Console.Write("\nEnter your choice: ");
 
@@ -107,6 +109,12 @@ namespace MiniProjetsAdo
                             ShowAlltrain();
                             break;
                         case "6":
+                            ShowALLBooking();
+                            break;
+                        case "7":
+                            ShowAllCancel();
+                            break;
+                        case "8":
                             Console.WriteLine("Exiting...");
                             return; // Exit the method and stop the while loop
                         default:
@@ -123,7 +131,7 @@ namespace MiniProjetsAdo
 
 
         //calling a procedur to add a train
-       public static void AddTrain()
+        public static void AddTrain()
         {
 
             try
@@ -256,7 +264,7 @@ namespace MiniProjetsAdo
             foreach (var train in trains)
             {
                 Console.WriteLine("------------------------------------------------------------------------------------------------------");
-                Console.WriteLine($"TrainID: {train.trainID}, TrainName: {train.trainName},||   Source: {train.Source} to Destination: {train.Destination}  || Status: {(train.Status =="Y" ? "Active" : "Inactive")}");
+                Console.WriteLine($"TrainID: {train.trainID}, TrainName: {train.trainName},||   Source: {train.Source} to Destination: {train.Destination}  || Status: {(train.Status == "Y" ? "Active" : "Inactive")}");
                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
 
             }
@@ -289,9 +297,9 @@ namespace MiniProjetsAdo
             }
         }
 
-  
+
         /// -------------------------------------------------------------------------------------------------------------------------------------------------------
-       
+
         public static void UserControl()
         {
 
@@ -324,7 +332,7 @@ namespace MiniProjetsAdo
                             break;
                         case "4":
                             Cancelticket();
-                            break; 
+                            break;
                         case "5":
                             Console.WriteLine("Exiting...");
                             return; // Exit the method and stop the while loop
@@ -338,11 +346,11 @@ namespace MiniProjetsAdo
                     Console.WriteLine($"An error occurred: {ex.Message}");
                 }
             }
-          
+
 
 
         }
-        
+
         public static void BookTicket()
         {
             ActiveTrainInfo();
@@ -370,14 +378,14 @@ namespace MiniProjetsAdo
                 int totalTickets = int.Parse(Console.ReadLine());
 
 
-              
+
                 db.BookTrainTicket(userName, trainID, birthClass, totalTickets);
 
 
                 var lastBookingID = db.GetLastBookingID().FirstOrDefault();//gives me last booking id because it sets as identity(1,1) so it will give me always max(booking id created last time)
 
-                
-                 Console.WriteLine("||-------------------------------------------------------------------------------------------------------||");
+
+                Console.WriteLine("||-------------------------------------------------------------------------------------------------------||");
                 Console.WriteLine("-------------------------------------------------------------------------------------------------------");
 
                 Console.WriteLine($"Your ticket Booked Successfully, your booking ID is: {lastBookingID.Value}");
@@ -436,7 +444,7 @@ namespace MiniProjetsAdo
                 Console.WriteLine("------------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("Error: Data is not available for the specified Train ID.");
                 Console.WriteLine("------------------------------------------------------------------------------------------------------------");
-                Environment.Exit(0); 
+                Environment.Exit(0);
             }
 
         }
@@ -476,6 +484,41 @@ namespace MiniProjetsAdo
             var RefundAmount = db.CancelTickets.FirstOrDefault(ct => ct.BookingID == bookingId)?.RefundAmount;
             Console.WriteLine("Ticket cancelled successfully. you wil be refunded 60% of paid amount  ");
             Console.WriteLine($"RefundAmount for BookingID {bookingId}: {RefundAmount}");
+            var CancelID = db.CancelTickets.FirstOrDefault(ct => ct.BookingID == bookingId)?.CancelTicketID;
+            Console.WriteLine($"\n YourCancellation Id is : {CancelID}");
+        }
+        public static void ShowALLBooking()
+        {
+          
+                var bookings = db.Bookings.ToList();
+                foreach (var booking in bookings)
+                {
+                    Console.WriteLine($"BookingID: {booking.BookingID} || TrainID: { booking.TrainID}");
+                    
+                    Console.WriteLine($"UserName: {booking.UserName}|| BerthType: { booking.berthType}");
+                    
+                    Console.WriteLine($"TotalTickets: {booking.Totaltickets}  ||  BookingStatus: {(booking.BookingStatus == "Y" ? "Active" : "Inactive")}");
+
+
+                    Console.WriteLine($"PaymentAmount: {booking.payment_amount}");
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                }
+            
+
+
+        }
+        public static void ShowAllCancel()
+        {
+            var CanceTic = db.CancelTickets.ToList();
+            foreach (var cancel in CanceTic)
+            {
+                Console.WriteLine($"CancelTicketID: {cancel.CancelTicketID} ||  BookingID: {cancel.BookingID}");
+                
+                
+                Console.WriteLine($"RefundAmount: {cancel.RefundAmount}     || CancelDate: {cancel.CancelDate}");
+                
+                Console.WriteLine("----------------------------------------");
+            }
         }
     }
 
