@@ -63,7 +63,7 @@ CREATE TABLE TrainBerthInfo (
 --------------------------------------------------------------------------------------------------
 insert into admin values (1,'Admin','1234'
 );
-insert into userper values (1,'User','1111'
+insert into userper values (1,'User','2222'
 );
 -----------------------------------------------------------------------------------------------
 --procedure for add a train
