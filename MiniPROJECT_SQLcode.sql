@@ -278,4 +278,6 @@ END
 SP_helptext CancelTicketData
 exec CancelTicketData @bookingID=2
 
-select*from CancelTicket
+delete FROM TrainBerthInfo where trainID = 12221;
+DELETE FROM train WHERE trainID = 12221;
+

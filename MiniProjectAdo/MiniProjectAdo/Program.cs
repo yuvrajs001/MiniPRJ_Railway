@@ -275,7 +275,7 @@ namespace MiniProjetsAdo
 
         public static void UserLogin()
         {
-            Console.WriteLine("\n\nYou have Selected User Login Please enter valid  credential"); //for user username=User,pass=2222
+            Console.WriteLine("\n\nYou have Selected User Login Please enter valid  credential"); //for user username=User,pass=1111
 
             Console.Write("\nEnter username: ");
             string username = Console.ReadLine();
