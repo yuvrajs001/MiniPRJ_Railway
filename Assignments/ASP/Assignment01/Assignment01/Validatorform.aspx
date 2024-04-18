@@ -120,7 +120,7 @@
         
         Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="phoneTextBox" runat="server"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="phoneValidator" runat="server" ErrorMessage="*" ControlToValidate="phoneTextBox" ForeColor="Red" Display="Dynamic" ValidationGroup="Dynamic">*</asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="phoneValidator" runat="server" ErrorMessage="*" ControlToValidate="phoneTextBox" ForeColor="Red" Display="Dynamic" ValidationGroup="regngrp">*</asp:RequiredFieldValidator>
         <asp:RegularExpressionValidator ID="RegularExpressionValidatorPhone" runat="server" ErrorMessage="Phone should be in the format XX-XXXXXXXX or XXX-XXXXXXX." ControlToValidate="phoneTextBox" ValidationExpression="^\d{2,3}-?\d{7}$" ForeColor="Red"  ValidationGroup="regngrp"></asp:RegularExpressionValidator>
         
         <br />
