@@ -38,6 +38,7 @@ namespace Assignment01
            
             if (IsValid)
             {
+
                 ScriptManager.RegisterStartupScript(this, GetType(), "checkDetails", "checkDetails();", true);
                 lbl.Visible = true;
                 lbl.Text = "Form submitted successfully!";
