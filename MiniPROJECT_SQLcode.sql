@@ -63,7 +63,7 @@ CREATE TABLE TrainBerthInfo (
 --------------------------------------------------------------------------------------------------
 insert into admin values (1,'Admin','1234'
 );
-insert into userper values (1,'User','1111'
+insert into userper values (1,'User','2222'
 );
 -----------------------------------------------------------------------------------------------
 --procedure for add a train
@@ -278,6 +278,10 @@ END
 SP_helptext CancelTicketData
 exec CancelTicketData @bookingID=2
 
+<<<<<<< HEAD
 delete FROM TrainBerthInfo where trainID = 12221;
 DELETE FROM train WHERE trainID = 12221;
 
+=======
+select*from CancelTicket
+>>>>>>> 94750e531b342320715117fbe962fc7d2865f768
