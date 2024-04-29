@@ -10,12 +10,9 @@ namespace CodeChallange9_ques2.Models
     public partial class Movie
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Mid { get; set; }
-
         [StringLength(50)]
         public string Moviename { get; set; }
-
         [Column(TypeName = "date")]
         public DateTime? DateofRelease { get; set; }
     }
