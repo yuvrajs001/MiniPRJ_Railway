@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34729.46
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallange9_ques2", "CodeChallange9_ques2\CodeChallange9_ques2.csproj", "{691D4634-A15F-434F-8443-EF2F5E463259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691D4634-A15F-434F-8443-EF2F5E463259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691D4634-A15F-434F-8443-EF2F5E463259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691D4634-A15F-434F-8443-EF2F5E463259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691D4634-A15F-434F-8443-EF2F5E463259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C31BC814-8475-4DBA-8B35-6E9E2F0F6BEE}
+	EndGlobalSection
+EndGlobal
