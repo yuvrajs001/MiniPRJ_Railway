@@ -1,7 +1,12 @@
-﻿
+﻿@model CodeChallange10.Models.OrderSubtotal
 @{
     ViewData["Title"] = "Bill";
 }
 
 <h1>Bill</h1>
 
+<div>
+    <h3>Order ID: @Model.OrderId</h3>
+    <p>Subtotal: $@Model.Subtotal</p>
+    
+</div>

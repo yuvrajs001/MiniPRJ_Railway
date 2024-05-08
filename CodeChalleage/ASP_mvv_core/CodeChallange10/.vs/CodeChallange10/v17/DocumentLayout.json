@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\controllers\\otherfuncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\controllers\\otherfuncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\highestordercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\highestordercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\controllers\\otherfuncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\controllers\\otherfuncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\models\\ordersubtotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerDetailsByOrderDate.cshtml",
-              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
-              "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
-              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
-              "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:17:34.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "CodeChallange10\\Views\\Order\\Index.cshtml",
@@ -68,54 +55,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "HighestOrderCustomer.cshtml",
               "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
               "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
               "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
               "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T06:13:13.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Bill.cshtml",
               "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
               "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
               "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
               "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T06:10:35.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Program.cs",
               "RelativeDocumentMoniker": "CodeChallange10\\Program.cs",
               "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Program.cs",
               "RelativeToolTip": "CodeChallange10\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T06:05:09.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OtherFunController.cs",
               "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Controllers\\OtherFunController.cs",
               "RelativeDocumentMoniker": "CodeChallange10\\Controllers\\OtherFunController.cs",
               "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Controllers\\OtherFunController.cs",
               "RelativeToolTip": "CodeChallange10\\Controllers\\OtherFunController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAACkAAAAJAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T06:00:05.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerDetailsByOrderDate.cshtml",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:17:34.956Z",
               "EditorCaption": ""
             },
             {
@@ -128,8 +128,7 @@
               "RelativeToolTip": "CodeChallange10\\Models\\OrderSubtotal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:52:53.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T05:52:53.168Z"
             }
           ]
         }

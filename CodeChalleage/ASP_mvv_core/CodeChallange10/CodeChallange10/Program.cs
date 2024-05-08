@@ -33,10 +33,16 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.MapControllerRoute(
+    name: "otherFun",
+    pattern: "otherfun/{action=Index}/{id?}",
+    defaults: new { controller = "OtherFun" });
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Order}/{action=Index}/{id?}");
+
 
 app.Run();
