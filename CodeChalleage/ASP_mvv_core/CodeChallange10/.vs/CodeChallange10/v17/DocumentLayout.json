@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\controllers\\otherfuncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\controllers\\otherfuncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\highestordercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\highestordercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\views\\otherfun\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\views\\otherfun\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|d:\\myminiproject\\codechalleage\\asp_mvv_core\\codechallange10\\codechallange10\\models\\ordersubtotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C998DA5E-E635-467F-9518-034A0773B9F0}|CodeChallange10\\CodeChallange10.csproj|solutionrelative:codechallange10\\models\\ordersubtotal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDetailsByOrderDate.cshtml",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\CustomerDetailsByOrderDate.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:17:34.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "CodeChallange10\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "CodeChallange10\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:13:55.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HighestOrderCustomer.cshtml",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
+              "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
+              "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\HighestOrderCustomer.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:13:13.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bill.cshtml",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
+              "RelativeDocumentMoniker": "CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
+              "RelativeToolTip": "CodeChallange10\\Views\\OtherFun\\Bill.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:10:35.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Program.cs",
+              "RelativeDocumentMoniker": "CodeChallange10\\Program.cs",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Program.cs",
+              "RelativeToolTip": "CodeChallange10\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:05:09.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OtherFunController.cs",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Controllers\\OtherFunController.cs",
+              "RelativeDocumentMoniker": "CodeChallange10\\Controllers\\OtherFunController.cs",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Controllers\\OtherFunController.cs",
+              "RelativeToolTip": "CodeChallange10\\Controllers\\OtherFunController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAACkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:00:05.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderSubtotal.cs",
+              "DocumentMoniker": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Models\\OrderSubtotal.cs",
+              "RelativeDocumentMoniker": "CodeChallange10\\Models\\OrderSubtotal.cs",
+              "ToolTip": "D:\\MyMiniProject\\CodeChalleage\\ASP_mvv_core\\CodeChallange10\\CodeChallange10\\Models\\OrderSubtotal.cs",
+              "RelativeToolTip": "CodeChallange10\\Models\\OrderSubtotal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:52:53.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
